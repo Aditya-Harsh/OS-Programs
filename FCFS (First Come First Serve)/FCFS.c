@@ -16,7 +16,6 @@ void main(){
     int matrix[number][6];
     for(i=0; i<number; i++){
         printf("\nEnter Process name, Arrival time and Burst time: ");
-        //scanf("%d%d%d",&matrix[i][0], &matrix[i][1], &matrix[i][2]);
         scanf("%d",&matrix[i][0]);
         scanf("%d",&matrix[i][1]);
         scanf("%d",&matrix[i][2]);
